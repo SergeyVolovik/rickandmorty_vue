@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-body: #ffffff;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-body);
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  min-height: inherit;
+  position: relative;
+}
